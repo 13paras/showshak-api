@@ -24,7 +24,6 @@ const userSchema = new Schema(
     },
     dob: {
       type: Date,
-      required: [true, 'Please enter your Date of Birth'],
     },
     role: {
       type: String,

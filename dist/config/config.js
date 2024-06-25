@@ -5,7 +5,7 @@ const dotenv_1 = require("dotenv");
 (0, dotenv_1.configDotenv)();
 // "_" this is to tell  that it is a private variable
 const _config = {
-    PORT: process.env.PORT || 7000,
+    PORT: process.env.PORT,
     NODE_ENV: process.env.NODE_ENV,
     MONGO_PASSWORD: process.env.MONGO_PASSWORD,
     MONGODB_URI: process.env.MONGODB_URI,
